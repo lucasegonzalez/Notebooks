@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 
 const GF = `@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@300;400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap');*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}`;
