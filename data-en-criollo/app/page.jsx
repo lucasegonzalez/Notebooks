@@ -286,7 +286,7 @@ export default function Landing() {
 
   return (
     <div style={{background:C.papel,minHeight:"100vh",position:"relative",overflow:"hidden"}}>
-      <style>{GF}</style>
+      <style dangerouslySetInnerHTML={{__html: GF}}/>
       <Noise/>
 
       <div style={{position:"relative",zIndex:1,maxWidth:960,margin:"0 auto",padding:"0 28px"}}>
