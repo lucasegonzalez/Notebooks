@@ -27,7 +27,7 @@ const sourceSerif = Source_Serif_4({
 
 export const metadata = {
   title: 'Data en Criollo',
-  description: 'Data en Criollo — periodismo de datos en argentino',
+  description: 'Data en Criollo — análisis de datos para pymes LATAM',
 };
 
 export default function RootLayout({ children }) {
@@ -36,15 +36,7 @@ export default function RootLayout({ children }) {
       lang="es"
       className={`${playfair.variable} ${dmMono.variable} ${sourceSerif.variable}`}
     >
-      <body
-        style={{
-          backgroundColor: '#E9E4D8',
-          color: '#1A1A18',
-          fontFamily: 'var(--font-source-serif), Georgia, serif',
-        }}
-      >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
